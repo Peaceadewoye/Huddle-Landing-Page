@@ -1,0 +1,147 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+/* MOBILE */
+@media (max-width: 375px) {
+  body {
+    background: url("../images/bg-mobile.svg");
+    background-repeat: no-repeat;
+    background-color: hsl(257, 40%, 49%);
+    color: #fff;
+    margin: 7%;
+  }
+  .logo {
+    width: 35%;
+  }
+  .mockup {
+    width: 100%;
+    margin: 2.5rem 0;
+  }
+  .bottom {
+    text-align: center;
+  }
+  h2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+  }
+  p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 0.9rem;
+    margin: 1.3rem 0;
+  }
+  button {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color: hsl(257, 40%, 49%);
+    padding: 1rem 4rem;
+    border-style: none;
+    border-radius: 25px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  }
+  .socials {
+    margin-top: 18%;
+    text-align: center;
+  }
+  .fab {
+    padding: .3rem;
+    margin: 0 1%;
+    border-radius: 100%;
+    border: 1px solid #fff;
+  }
+}
+/* DESKTOP */
+@media (min-width: 375px) {
+  html {
+    margin: 0 5% 0 0;
+  }
+  body {
+    background: url("../images/bg-desktop.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: hsl(257, 40%, 49%);
+    color: #fff;
+    margin-left: 5%;
+  }
+  .logo {
+    margin-top: 3%;
+    width: 120px;
+  }
+  .top {
+    flex-basis: 560px;
+  }
+  .mockup {
+    width: 100%;
+  }
+  .bottom {
+    text-align: left;
+    flex: 1;
+    align-self: center;
+    max-width: 520px;
+  }
+  h2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    line-height: 1.5;
+    max-width: 350px;
+  }
+  p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    margin: 1.3rem 0;
+    line-height: 1.5;
+  }
+  button {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color: hsl(257, 40%, 49%);
+    padding: 1rem 4rem;
+    border-style: none;
+    border-radius: 25px;
+    cursor: pointer;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  }
+  button:hover {
+    color: #fff;
+    background-color: hsl(300, 69%, 71%);
+  }
+  .container {
+    margin-top: 3rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .socials {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: flex-end;
+  }
+  .fab {
+    padding: .3rem;
+    margin: 0 .5rem;
+    border-radius: 100%;
+    border: 1px solid #fff;
+  }
+  .fab:hover {
+    color: hsl(300, 69%, 71%);
+    border-color: hsl(300, 69%, 71%);
+    cursor: pointer;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
